@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+        }
+
+        .form {
+            margin: auto;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .marvel_container {
+            width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .charaster {
+            margin: 12px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+            border: 3px solid rgba(228, 0, 0, 0.798);
+            border-radius: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            width: 220px;
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        .img_header {
+            width: 32px;
+            height: 320px;
+            margin: 0 0 3px 12px;
+            padding: 0px 10px;
+        }
+
+        header {
+            padding-left: 500px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer {
+            padding-top: 80px;
+            padding-bottom: 30px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .div_footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer_link {
+            margin-left: 80px;
+            display: flex;
+        }
+
+        .img_footer {
+            width: 150px;
+        }
+
+        nav {
+            margin-top: 60px;
+            margin-left: 40px;
+            box-shadow: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+
+        .marvel_info {
+            text-align: center;
+        }
+
+        .div_links {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .img_info {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <header>
+            <img src="img/Marvel_Logo.svg.png" alt="" width="250" height="100">
+            <div class="div_links">
+                <div class="shop_bag"><img class="img_header" src="img/corzina.png" alt=""></div>
+                <div class="shop"><img class="img_header" src="img/store.png" alt=""></div>
+                <div class="user"><img class="img_header" src="img/user.png" alt=""></div>
+            </div>
+        </header>
+
+        <div class="marvel_info">
+            <img class="img_info" src="img/marvel_cinem.jpg" alt="">
+        </div>
+
+        <div class="marvel_container"></div>
+
+        <footer>
+            <div class="div_footer">
+                <div class="footer_link">
+                    <img class="img_footer" src="img/M_footer.png" alt="">
+                    <nav class="main-footer__primary-links" aria-label="Primary footer navigtion">
+                        <ul>
+                            <li class="footer_link"><a href="https://www.marvel.com/corporate/about">About Marvel</a>
+                            </li>
+                            <li class="footer_link"><a href="https://help.marvel.com">Help/FAQs</a></li>
+                            <li class="footer_link"><a href="https://www.marvel.com/corporate/interns">Internships</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

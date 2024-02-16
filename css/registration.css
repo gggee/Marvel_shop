@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.regist_window {
+    padding: 50px;
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marvel_logo {
+    margin: auto;
+}
+
+.regist_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.name {
+    width: 400px;
+    height: 36px;
+    margin: 0 0 20px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: rgb(222, 9, 1);
+    outline: none;
+}
+
+.login {
+    width: 400px;
+    height: 36px;
+    margin: 0 0 20px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: rgb(222, 9, 1);
+    outline: none;
+}
+
+.password {
+    width: 400px;
+    height: 36px;
+    margin: 0 0 30px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: rgb(222, 9, 1);
+    outline: none;
+}
+
+.regist_question {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn_register {
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(222, 9, 1);
+}
+
+.link {
+    color: rgb(222, 9, 1);
+}
+
+.subtitle {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.btn_register {
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(222, 9, 1);
+}
+
+.btn_register:focus:hover{
+    background-color: rgb(222, 9, 1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
